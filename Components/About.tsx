@@ -6,12 +6,12 @@ import Image from 'next/image'
 export const About = () => {
   return (
     <div className="py-16 px-16 bg-gray-900 mx-0 w-full lg:py-20">
-      <div className="m-auto sm:text-center w-1/2">
-        <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+      <div className="m-auto sm:text-center lg:w-1/2">
+        <div className="w-full mb-10 mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <motion.h2 {...{variants:scrollProps.variants, initial: scrollProps.initial, animate:"whileInView", transition: {duration:0.5, delay:1.3}}} className="-translate-y-32 max-w-lg mb-6  md:text-5xl font-bold leading-none tracking-tight text-neutral-100 font-[masthead] sm:text-4xl md:mx-auto">
               ABOUT
           </motion.h2>
-          <motion.p {...{...scrollProps}} className="text-base text-neutral-100 md:text-lg">
+          <motion.p {...{...scrollProps}} className="text-base text-neutral-100 w-full md:text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque rem aperiam, eaque ipsa quae.
           </motion.p>
