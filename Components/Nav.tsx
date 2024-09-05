@@ -11,18 +11,10 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="fixed flex w-full justify-between space-x-auto bg-gray-900 z-50 top-0 left-0 px-4 py-5 mx-auto w-screen md:px-2 lg:px-2 shadow-sm shadow-neutral-100">
-      <div className="relative flex w-full justify-center">
-        <div className="mx-8 absolute left-2"><h4 className="font-[powerr] text-neutral-100 text-5xl">AP</h4></div>
-        {/* <Canvas className="opacity-100 !h-[85px] !w-[85px]">
-          <directionalLight position={[0.3, 0.3, 0.3]} intensity={2}/>
-          <mesh position={[0,-0.1,0]} scale={16} rotation={new THREE.Euler(Math.PI / 2, 0, 0)}>
-            <planeGeometry args={[1,1]} />
-            <meshPhongMaterial color={0xee0000} shininess={60} transparent opacity={1} />
-          </mesh>
-          <Logo />
-        </Canvas> */}
-        <ul className="flex lg:visible lg:justify-center items-center  hidden space-x-4 lg:flex">
+    <div className="fixed flex w-screen justify-between lg:space-x-auto bg-gray-900 z-50 top-0 left-0 px-4 py-5 mx-auto md:px-2 lg:px-2 shadow-sm shadow-neutral-100">
+      <div className="relative flex w-full justify-between lg:justify-center">
+        <div className="lg:mx-8 lg:absolute lg:left-2"><h4 className="font-[powerr] text-neutral-100 text-5xl">AP</h4></div>
+        <ul className="flex lg:visible lg:justify-center items-center hidden space-x-4 lg:flex">
           <li>
             <a
               href="/"

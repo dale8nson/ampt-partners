@@ -8,7 +8,7 @@ export const About = () => {
     <div className="py-16 px-16 bg-gray-900 mx-0 w-full lg:py-20">
       <div className="m-auto sm:text-center lg:w-1/2">
         <div className="w-full mb-10 mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-          <motion.h2 {...{variants:scrollProps.variants, initial: scrollProps.initial, animate:"whileInView", transition: {duration:0.5, delay:1.3}}} className="-translate-y-32 max-w-lg mb-6  md:text-5xl font-bold leading-none tracking-tight text-neutral-100 font-[masthead] sm:text-4xl md:mx-auto">
+          <motion.h2 {...{variants:scrollProps.variants, initial: scrollProps.initial, animate:"whileInView", transition: {duration:0.5, delay:1.3}}} className="lg:-translate-y-32 mb-6  md:text-5xl font-bold leading-none tracking-tight text-neutral-100 font-[masthead] text-4xl w-full mx-auto">
               ABOUT
           </motion.h2>
           <motion.p {...{...scrollProps}} className="text-base text-neutral-100 w-full md:text-lg">
