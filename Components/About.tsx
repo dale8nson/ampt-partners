@@ -21,7 +21,7 @@ export const About = () => {
         <motion.div {...scrollProps} className="w-full  lg:h-96">
           <Image
             width={200} height={200}
-            className="object-cover object-top w-full rounded shadow-lg h-[60vw] md:h-[60vw] lg:h-96"
+            className="object-cover object-top w-full rounded shadow-lg h-[60vw]"
             src="/S8_Louis_Litt.webp"
             alt=""
           />
