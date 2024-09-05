@@ -28,7 +28,7 @@ export const Footer = () => {
             </motion.p>
           </div>
         </motion.div>
-        <div className="space-y-2 text-sm">
+        <div className="space-y-2 text-sm px-4">
           <motion.p {...scrollProps} className="text-base font-bold tracking-wide text-neutral-100">
             Contacts
           </motion.p>
@@ -68,7 +68,7 @@ export const Footer = () => {
             </motion.a>
           </div>
         </div>
-        <div>
+        <div className="px-4">
           <motion.h4 {...scrollProps} className="text-base font-bold tracking-wide text-neutral-100">
             Social
           </motion.h4>
