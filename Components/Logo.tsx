@@ -25,34 +25,20 @@ export const Logo = () => {
         <Text3D {...{font:font.data, bevelEnabled:false, bevelSize:.001, bevelSegments:1}}>
           P
           <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} />
-<<<<<<< HEAD
           <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} />
-=======
-          <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} specular={0xfffffa} shininess={60} transparent opacity={1} />
->>>>>>> refs/remotes/origin/main
         </Text3D>
       </mesh>
       <mesh position={[-0.35,-0.52,-0.8]} scale={[1, 1, .4]}>
         <Text3D  smooth={.01} font={font.data} bevelEnabled={false} bevelSize={.001} bevelSegments={1} >A
-<<<<<<< HEAD
         <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} side={THREE.DoubleSide}/>
         <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} side={THREE.DoubleSide} />
-=======
-        <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} specular={0xfffffa} shininess={60} transparent opacity={1} side={THREE.DoubleSide}/>
-        <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} specular={0xfffffa} shininess={60} transparent opacity={1} side={THREE.DoubleSide} />
->>>>>>> refs/remotes/origin/main
         </Text3D>
       </mesh>
       <mesh position={[-0.5, -0.52, -0.2]} scale={[1, 1, .4]} rotation={new THREE.Euler(0, Math.PI / -2, 0)}>
         <Text3D {...{font:font.data, bevelEnabled:false, bevelSize:.001, bevelSegments:1}}>
           P
-<<<<<<< HEAD
           <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} />
           <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} />
-=======
-          <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} specular={0xfffffa} shininess={60} transparent opacity={1} />
-          <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} specular={0xfffffa} shininess={60} transparent opacity={1} />
->>>>>>> refs/remotes/origin/main
         </Text3D>
       </mesh>
     </motion.group>
