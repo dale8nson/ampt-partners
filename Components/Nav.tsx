@@ -11,10 +11,10 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="fixed flex w-screen justify-between lg:space-x-auto bg-gray-900 z-50 top-0 left-0 px-4 py-5 mx-auto md:px-2 lg:px-2 shadow-sm shadow-neutral-100 h-[5vw]">
+    <div className="fixed flex w-screen justify-between lg:space-x-auto bg-gray-900 z-50 top-0 left-0 px-4 py-5 mx-auto md:px-2 lg:px-2 shadow-sm shadow-neutral-100 lg:h-[5vw]">
       <div className="relative flex w-full justify-between lg:justify-center">
         <div className="lg:mx-8 lg:absolute lg:left-2"><h4 className="font-[powerr] text-neutral-100 text-5xl">AP</h4></div>
-        <ul className="lg:visible lg:justify-center items-center hidden space-x-4 lg:flex">
+        <ul className=" lg:visible lg:justify-center items-center hidden space-x-4 lg:flex !h-[5vw] [&>li]:h-[5vw] w-full mx-auto">
           <li>
             <a
               href="/"
@@ -76,7 +76,7 @@ export const Nav = () => {
             </a>
           </li>
         </ul>
-        <div className="lg:hidden">
+        <div className="md:hidden">
           <button
             aria-label="Open Menu"
             title="Open Menu"
