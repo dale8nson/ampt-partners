@@ -8,7 +8,7 @@ export const CTA = () => {
   return (
     <section className="relative z-[15] bg-gray-900 ">
       <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
-        <motion.h2 {...scrollProps} className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-white">
+        <motion.h2 {...scrollProps} className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight xl:text-3xl text-neutral-100">
           Book a free 30-minute consultation
         </motion.h2>
 
