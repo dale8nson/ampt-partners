@@ -1,0 +1,37 @@
+import { motion } from "framer-motion"
+import * as THREE from 'three'
+import { Canvas } from '@react-three/fiber'
+import { PerspectiveCamera } from '@react-three/drei'
+import { Logo } from '@/Components/Logo'
+
+export const Header = () => {
+   return (
+   <section className="relative flex-col h-[80vh] px-0 overflow-hidden w-full mx-0 z-[-10] justify-center align-middle">
+      <div className='h-[60vh] w-full overflow-hidden'>
+        <video src='/17920530-uhd_3840_2160_30fps.mp4' className="fixed -z-50 px-0  mx-auto w-full h-[80vh] object-cover content-center" autoPlay loop muted />
+      <Canvas className="absolute w-full mx-auto translate-y-32 opacity-100 !h-[200px] align-center ">
+          {/* <PerspectiveCamera makeDefault args={[0.75, 1, 0.01, 10]} /> */}
+          <directionalLight position={[0.3, 0.3, 0.3]} intensity={2}/>
+          {/* <mesh position={[0,-0.1,0]} scale={16} rotation={new THREE.Euler(Math.PI / 2, 0, 0)}>
+            <planeGeometry args={[1,1]} />
+            <meshPhongMaterial color={0xee0000} shininess={60} transparent opacity={1} />
+          </mesh> */}
+          <Logo />
+        </Canvas>
+        </div>
+      <div className="flex absolute flex-col top-0 justify-center  align-middle mx-auto w-full h-[70vh]">
+        <div className="flex self-center justify-center align-middle mx-auto w-full">
+        
+          <motion.div className="self-center justify-self-center" initial={{ x: "100vw", opacity: 0, skewX: "75deg" }} animate={{ x: "0", opacity: 1, skewX: "0deg" }} transition={{ duration: 1, delay: .3 }}>
+            <h1 className="text-9xl text-neutral-100 translate-y-32 font-[masthead]">AMPT&nbsp;</h1>
+          </motion.div>
+          <motion.div className="self-center justify-self-center" initial={{ x: "-100vw", opacity: 0, skewX: "-75deg" }} animate={{ x: "0", opacity: 1.2, skewX: "0deg" }} transition={{ duration: 1.2, delay: .3 }}>
+            <h1 className="text-9xl translate-y-32 text-neutral-100 font-[powerr]">PARTNERS</h1>
+          </motion.div>
+        </div>
+        {/* <motion.div className="w-full mx-0 flex justify-center" initial={{ y: '60vh', opacity: 0, rotateX: "135deg" }} animate={{ y: "0", opacity: 1, rotateX: "0deg" }} transition={{ duration: 1.2, delay: 1.5 }}>
+          <h1 className="text-7xl space-x-2 text-neutral-100 font-[powerr]">SOLICITORS</h1>
+        </motion.div> */}
+      </div>
+    </section>)
+}
