@@ -11,7 +11,7 @@ extend({Text3D, TextGeometry})
 export const Logo = () => {
 
   const font = useFont('/Powerr Med_Regular.json')
-  const metalTex = useTexture('/brushed-metal.png')
+  const metalTex = useTexture('/brushed-metal.webp')
 
   return (
     <motion.group initial={{rotateY:0}} animate={{rotateY:-2 * Math.PI}} transition={{duration:8, repeat: Infinity, ease:'linear'}} position={[-0.5,0,-1]} scale={[4,4,3]} rotation={new THREE.Euler(0, Math.PI / 4, 0)} >
