@@ -7,7 +7,7 @@ import { Logo } from '@/Components/Logo'
 export const Header = () => {
    return (
    <section className="relative flex-col h-[60vh] lg:h-[80vh] px-0 overflow-hidden w-full mx-0 z-[-10] justify-center align-middle">
-      <div className='h-[60vh] lg:h-[80vh] w-full overflow-hidden bg-[url("/pexels-finn-whelen-6227601-6182776.jpg")] lg:bg-gray-900 lg:bg-cover lg:bg-center'>
+      <div className='h-[60vh] lg:h-[80vh] w-full overflow-hidden bg-[url("/pexels-finn-whelen-6227601-6182776.jpg")] lg:bg-gray-900 bg-cover bg-center'>
         <video  className="fixed z-0 px-0 mx-auto w-full h-[60vh] lg:h-[80vh] object-cover content-center" autoPlay loop muted >
           <source src='17920530-uhd_3840_2160_30fps.webm' />
           <source src='/pexels-finn-whelen-6227601-6182776.jpg' />
