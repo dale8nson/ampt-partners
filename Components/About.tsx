@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { scrollProps } from '@/utils';
+import Image from 'next/image'
 
 
 export const About = () => {
@@ -16,11 +17,14 @@ export const About = () => {
           </motion.p>
         </div>
         <div className="mb-4 transition-shadow duration-300 hover:shadow-xl lg:mb-6">
-          <motion.img {...{...scrollProps}}
-            className="object-cover object-top w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96"
-            src="/S8_Louis_Litt.webp"
-            alt=""
-          />
+          <motion.div {...scrollProps} className="w-full h-56 sm:h-64 md:h-80 lg:h-96">
+            <Image 
+            width={200} height={200} 
+              className="object-cover object-top w-full h-56 rounded shadow-lg sm:h-64 md:h-80 lg:h-96"
+              src="/S8_Louis_Litt.webp"
+              alt=""
+            />
+          </motion.div>
         </div>
         <motion.p {...{...scrollProps}} className="max-w-xl mb-4 text-base text-neutral-100 sm:mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
