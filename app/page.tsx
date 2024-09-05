@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <section className="w-screen mx-0 px-0">
       <Header />
-      <div className="flex flex-col justify-center bg-gray-900">
+      <div className="relative z-[15] flex flex-col justify-center bg-gray-900">
       <About />
       <Features />
       <TeamProfiles/>

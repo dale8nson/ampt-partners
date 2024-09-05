@@ -3,7 +3,7 @@ import { scrollProps } from '@/utils'
 
 export const Footer = () => {
   return (
-    <motion.div {...scrollProps} className="border-t px-0 pt-16 mx-0 w-full bg-gray-900">
+    <motion.div {...scrollProps} className="relative z-[15] border-t px-0 pt-16 mx-0 w-full bg-gray-900">
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4 w-full mx-0">
         <motion.div {...scrollProps} className="sm:col-span-2 px-5">
           <motion.a {...scrollProps}

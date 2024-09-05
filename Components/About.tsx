@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export const About = () => {
   return (
-    <div className="py-16 px-16 bg-gray-900 mx-0 w-full lg:py-20">
+    <div className="relative z-[15] py-16 px-16 bg-gray-900 mx-0 w-full lg:py-20">
       <div className="flex flex-col m-auto sm:text-center lg:w-1/2">
         <div className="w-full mb-10 mx-auto sm:text-center md:mb-12">
           <div className="flex justify-center w-full mx-auto">

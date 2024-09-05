@@ -4,7 +4,7 @@ import Image  from 'next/image'
 
 export const TeamProfiles = () => {
   return (
-    <section className="bg-gray-900" >
+    <section className="relative z-[15] bg-gray-900" >
       <div className="container px-6 py-8 mx-auto">
         <motion.h2 {...scrollProps} className="text-2xl font-semibold text-center capitalize lg:text-3xl text-white font-[masthead]">Our Team</motion.h2>
         <div className="grid gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
