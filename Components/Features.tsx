@@ -24,7 +24,7 @@ const scrollProps = {
 export const Features = () => {
   return (
 
-    <section className="bg-gray-900">
+    <section className="bg-gray-900 relative z-10">
       <motion.div className="container px-6 py-10 mx-auto">
         <motion.h1 {...scrollProps} className="text-2xl font-semibold text-center  capitalize lg:text-3xl text-neutral-100 font-[masthead]">What we offer</motion.h1>
         <motion.div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-16 md:grid-cols-2 xl:grid-cols-3">

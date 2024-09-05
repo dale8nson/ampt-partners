@@ -18,15 +18,15 @@ export const About = () => {
             accusantium doloremque rem aperiam, eaque ipsa quae.
           </motion.p>
         </div>
-        <motion.div {...scrollProps} className="w-full  lg:h-96">
+        <motion.div {...scrollProps} className="w-full relative z-[1] ">
           <Image
             width={200} height={200}
-            className="object-cover object-top w-full rounded shadow-lg"
+            className="object-cover object-top w-full rounded shadow-lg h-[40vw]"
             src="/S8_Louis_Litt.webp"
             alt=""
           />
         </motion.div>
-        <motion.p {...scrollProps} className="mb-4 text-base text-neutral-100 sm:mx-auto">
+        <motion.p {...scrollProps} className="relative z-[1] mb-4 text-base text-neutral-100 sm:mx-auto">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud ullamco laboris aliquip ex ea.
