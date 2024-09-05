@@ -110,30 +110,30 @@ export const Footer = () => {
           © Copyright {new Date().getFullYear()} Ampt Partners. All rights reserved.
         </motion.p>
         <ul className="flex !w-full !mx-0 px-5 mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
-          <li>
-            <motion.a {...scrollProps}
+          <motion.li {...scrollProps}>
+            <motion.a 
               href="/"
               className="text-sm text-neutral-100 transition-colors duration-300"
             >
               F.A.Q
             </motion.a>
-          </li>
-          <li>
-            <motion.a {...scrollProps}
+          </motion.li>
+          <motion.li {...scrollProps}>
+            <motion.a 
               href="/"
               className="text-sm text-neutral-100 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
               Privacy Policy
             </motion.a>
-          </li>
-          <li>
-            <motion.a {...scrollProps}
+          </motion.li>
+          <motion.li {...scrollProps}>
+            <motion.a 
               href="/"
               className="text-sm text-neutral-100 transition-colors duration-300"
             >
               Terms &amp; Conditions
             </motion.a>
-          </li>
+          </motion.li>
         </ul>
       </motion.div>
     </motion.div>
