@@ -25,7 +25,7 @@ export const Header = () => {
             <h1 className="text-5xl lg:text-9xl text-neutral-100 translate-y-16 lg:translate-y-32 font-[masthead]">AMPT&nbsp;</h1>
           </motion.div>
           <motion.div className="self-center justify-self-center" initial={{ x: "-100vw", opacity: 0, skewX: "-75deg" }} animate={{ x: "0", opacity: 1.2, skewX: "0deg" }} transition={{ duration: 1.2, delay: .3 }}>
-            <h1 className="text-5xl lg:text-9xl translate-y-16 lg:translate-y-32 text-neutral-100 font-[powerr]">PARTNERS</h1>
+            <h1 className="text-5xl lg:text-9xl translate-y-[4.1rem] lg:translate-y-32 text-neutral-100 font-[powerr]">PARTNERS</h1>
           </motion.div>
         </div>
         {/* <motion.div className="w-full mx-0 flex justify-center" initial={{ y: '60vh', opacity: 0, rotateX: "135deg" }} animate={{ y: "0", opacity: 1, rotateX: "0deg" }} transition={{ duration: 1.2, delay: 1.5 }}>
