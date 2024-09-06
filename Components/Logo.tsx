@@ -28,7 +28,7 @@ export const Logo = () => {
           <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} />
         </Text3D>
       </mesh>
-      <mesh position={[-0.35,-0.52,-0.8]} scale={[1, 1, .4]}>
+      <mesh position={[-0.35,-0.52,-0.8]} scale={[1, 1, -.4]}>
         <Text3D  smooth={.01} font={font.data} bevelEnabled={false} bevelSize={.001} bevelSegments={1} >A
         <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} side={THREE.DoubleSide}/>
         <meshPhongMaterial map={metalTex} color={0xfffffa} emissive={0xffffff} emissiveIntensity={.3} specular={0xffffff} shininess={60} transparent opacity={1} side={THREE.DoubleSide} />
