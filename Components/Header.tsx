@@ -14,7 +14,7 @@ export const Header = () => {
 
       </div>
       <div className="flex absolute flex-col top-0 justify-center  align-middle mx-auto w-full h-[70vh]">
-        <Canvas className="w-full !h-[125px] mx-auto  opacity-100 lg:!h-[200px] ">
+        <Canvas className="w-full !h-[125px] mx-auto opacity-100 lg:!h-[200px] ">
           {/* <PerspectiveCamera makeDefault args={[0.75, 1, 0.01, 10]} /> */}
           <directionalLight position={[0.3, 0.3, 0.3]} intensity={2} />
           {/* <mesh position={[0,-0.1,0]} scale={16} rotation={new THREE.Euler(Math.PI / 2, 0, 0)}>
@@ -23,12 +23,12 @@ export const Header = () => {
           </mesh> */}
           <Logo />
         </Canvas>
-        <div className="flex justify-center align-middle mx-auto !w-6/12 lg:w-full">
+        <div className="flex justify-center !align-base mx-auto !w-6/12 lg:w-full">
           <motion.div initial={{ x: "100vw", opacity: 0, skewX: "75deg" }} animate={{ x: "0", opacity: 1, skewX: "0deg" }} transition={{ duration: 1, delay: .3 }}>
-            <h1 className="text-5xl lg:text-9xl text-neutral-100  font-[masthead]">AMPT&nbsp;</h1>
+            <h1 className="text-5xl lg:text-[8.5rem] text-neutral-100  font-bold tracking-tighter !leading-[9rem] !self-start ">AMPT&nbsp;</h1>
           </motion.div>
           <motion.div initial={{ x: "-100vw", opacity: 0, skewX: "-75deg" }} animate={{ x: "0", opacity: 1.2, skewX: "0deg" }} transition={{ duration: 1.2, delay: .3 }}>
-            <h1 className="text-5xl lg:text-9xl  text-neutral-100 font-[powerr]">PARTNERS</h1>
+            <h1 className="text-5xl lg:text-9xl  text-neutral-100 font-sans !leading-[9rem] !self-baseline tracking-tighter  ">PARTNERS</h1>
           </motion.div>
         </div>
         {/* <motion.div className="w-full mx-0 flex justify-center" initial={{ y: '60vh', opacity: 0, rotateX: "135deg" }} animate={{ y: "0", opacity: 1, rotateX: "0deg" }} transition={{ duration: 1.2, delay: 1.5 }}>
