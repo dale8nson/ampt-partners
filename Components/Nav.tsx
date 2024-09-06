@@ -11,10 +11,10 @@ export const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="fixed flex w-screen align-middle justify-between lg:space-x-auto bg-gray-900 z-50 top-0 left-0 px-4 py-5 mx-auto md:px-2 lg:px-2 shadow-sm shadow-neutral-100 lg:h-[5vw]">
-      <div className="relative flex w-full justify-between lg:justify-center">
+    <div className="fixed flex w-screen h-[10vh] justify-between lg:space-x-auto bg-gray-900 z-50 top-0 left-0 px-4 py-5 mx-auto md:px-2 lg:px-2 shadow-sm shadow-neutral-100">
+      <div className=" relative flex w-full align-baseline justify-between lg:justify-center">
         <div className="lg:mx-8 lg:absolute lg:left-2"><h4 className="font-[powerr] text-neutral-100 text-5xl">AP</h4></div>
-        <ul className=" lg:visible lg:justify-center items-center hidden space-x-4 lg:flex w-full mx-auto">
+        <ul className="relative !z-[45] h-[15vh] lg:[&_li]:!h-[15vh] md:visible lg:justify-center items-center hidden space-x-4 lg:flex w-full mx-auto">
           <li>
             <a
               href="/"
@@ -68,7 +68,7 @@ export const Nav = () => {
           <li>
             <a
               href="/"
-              className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-neutral-100 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="inline-flex align-baseline h-12  font-medium tracking-wide text-neutral-100 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
             >
@@ -80,7 +80,7 @@ export const Nav = () => {
           <button
             aria-label="Open Menu"
             title="Open Menu"
-            className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline "
+            className="-mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline "
             onClick={() => setIsMenuOpen(true)}
           >
             <svg className="w-5 text-neutral-100" viewBox="0 0 24 24">
@@ -133,7 +133,7 @@ export const Nav = () => {
                     <button
                       aria-label="Close Menu"
                       title="Close Menu"
-                      className="p-2 -mt-2 -mr-2 transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                      className="px-2 m-0 self-center  transition duration-200 rounded hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       <svg className="w-5 text-gray-600" viewBox="0 0 24 24">
@@ -145,7 +145,7 @@ export const Nav = () => {
                     </button>
                   </div>
                 </div>
-                <nav>
+                <div>
                   <ul className="space-y-4">
                     <li>
                       <a
@@ -198,7 +198,7 @@ export const Nav = () => {
                       </a>
                     </li>
                   </ul>
-                </nav>
+                </div>
               </div>
             </div>
           )}
