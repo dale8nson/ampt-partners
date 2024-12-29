@@ -14,7 +14,7 @@ export const Footer = () => {
             >
             <h6 className='text-neutral-100 text-4xl font-[powerr]'>AP</h6>
             <span className="ml-2 text-xl font-bold tracking-wide text-neutral-100 uppercase">
-              Ampt Partners
+              Anderson & Partners
             </span>
           </motion.a>
           <div className="mt-6 w-full">
@@ -51,7 +51,7 @@ export const Footer = () => {
               title="Our email"
               className="transition-colors duration-300 text-neutral-100 hover:scale-110"
             >
-              <h4>info@amptpartners.com.au</h4>
+              <h4>info@andersonpartners.com.au</h4>
             </motion.a>
           </div>
           <div className="flex">
@@ -107,7 +107,7 @@ export const Footer = () => {
       </div>
       <motion.div  className="flex justify-between pt-5 pb-10 px-0 border-t lg:flex-row !w-full !mx-0">
         <motion.p {...scrollProps} className="text-sm px-5 text-neutral-100 w-full">
-          © Copyright {new Date().getFullYear()} Ampt Partners. All rights reserved.
+          © Copyright {new Date().getFullYear()} Anderson & Partners. All rights reserved.
         </motion.p>
         <ul className="flex !w-full !mx-0 px-5 mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <motion.li {...scrollProps}>

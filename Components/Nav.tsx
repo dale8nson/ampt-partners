@@ -13,13 +13,13 @@ export const Nav = () => {
   return (
     <div className="fixed flex w-screen h-[10vh] justify-between lg:space-x-auto bg-gray-900 z-50 top-0 left-0 px-4 py-5 mx-auto md:px-2 lg:px-2 shadow-sm shadow-neutral-100">
       <div className=" relative flex w-full align-baseline justify-between lg:justify-center">
-        <div className="lg:mx-8 lg:absolute lg:left-2"><h4 className="font-[powerr] text-neutral-100 text-5xl">AP</h4></div>
+        <div className="lg:mx-8 lg:absolute lg:left-2"><h4 className="font-[powerr] text-neutral-100 text-5xl">A&P</h4></div>
         <ul className="relative !z-[45] h-[15vh] lg:[&_li]:!h-[15vh] md:visible lg:justify-center items-center hidden space-x-4 lg:flex w-full mx-auto">
           <li>
             <a
               href="/"
-              aria-label="Our product"
-              title="Our product"
+              aria-label="Home"
+              title="Home"
               className="font-medium tracking-wide text-neutral-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Home
@@ -28,8 +28,8 @@ export const Nav = () => {
           <li>
             <a
               href="/"
-              aria-label="Our product"
-              title="Our product"
+              aria-label="Area of Practice"
+              title="Area of Practice"
               className="font-medium tracking-wide text-neutral-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Area of Practice
@@ -38,8 +38,8 @@ export const Nav = () => {
           <li>
             <a
               href="/"
-              aria-label="Product pricing"
-              title="Product pricing"
+              aria-label="Our People"
+              title="Our People"
               className="font-medium tracking-wide text-neutral-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Our People
@@ -48,8 +48,8 @@ export const Nav = () => {
           <li>
             <a
               href="/"
-              aria-label="About us"
-              title="About us"
+              aria-label="For Clients"
+              title="For Clients"
               className="font-medium tracking-wide text-neutral-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               For Clients
@@ -58,8 +58,8 @@ export const Nav = () => {
           <li>
             <a
               href="/"
-              aria-label="About us"
-              title="About us"
+              aria-label="Blog"
+              title="Blog"
               className="font-medium tracking-wide text-neutral-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               Blog
@@ -69,8 +69,8 @@ export const Nav = () => {
             <a
               href="/"
               className="inline-flex align-baseline h-12  font-medium tracking-wide text-neutral-100 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-              aria-label="Sign up"
-              title="Sign up"
+              aria-label="Contact"
+              title="Contact"
             >
               Contact
             </a>
