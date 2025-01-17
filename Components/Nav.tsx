@@ -13,7 +13,7 @@ export const Nav = () => {
   return (
     <div className="fixed flex w-screen h-[10vh] justify-between lg:space-x-auto bg-gray-900 z-50 top-0 left-0 px-4 py-5 mx-auto md:px-2 lg:px-2 shadow-sm shadow-neutral-100">
       <div className=" relative flex w-full align-baseline justify-between lg:justify-center">
-        <div className="lg:mx-8 lg:absolute lg:left-2"><h4 className="font-[powerr] text-neutral-100 text-5xl">A&P</h4></div>
+        <div className="lg:mx-8 lg:absolute lg:left-2"><h4 className="font-sans text-neutral-100 text-5xl">A&P</h4></div>
         <ul className="relative !z-[45] h-[15vh] lg:[&_li]:!h-[15vh] md:visible lg:justify-center items-center hidden space-x-4 lg:flex w-full mx-auto">
           <li>
             <a
