@@ -25,7 +25,7 @@ export const Header = () => {
         </Canvas>
         <div className="flex justify-center !align-base mx-auto !w-8/12 lg:w-full">
           <motion.div initial={{ x: "100vw", opacity: 0, skewX: "75deg" }} animate={{ x: "0", opacity: 1, skewX: "0deg" }} transition={{ duration: 1, delay: .3 }}>
-            <h1 className="text-5xl lg:text-6xl text-neutral-100  font-bold tracking-tighter !leading-[9rem] !self-start ">ANDERSON &&nbsp;</h1>
+            <h1 className="text-5xl lg:text-6xl text-neutral-100  font-bold tracking-tighter !leading-[9rem] !self-start">ANDERSON &&nbsp;</h1>
           </motion.div>
           <motion.div initial={{ x: "-100vw", opacity: 0, skewX: "-75deg" }} animate={{ x: "0", opacity: 1.2, skewX: "0deg" }} transition={{ duration: 1.2, delay: .3 }}>
             <h1 className="text-5xl lg:text-6xl  text-neutral-100 font-sans !leading-[9rem] !self-baseline tracking-tighter  ">PARTNERS</h1>

@@ -11,7 +11,7 @@ extend({Text3D, TextGeometry})
 
 export const Logo = () => {
 
-  const font = useFont('/Powerr Med_Regular.json')
+  const font = useFont('/A&P.json')
   const metalTex = useTexture('/brushed-metal.webp')
 
   return (

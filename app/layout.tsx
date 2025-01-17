@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="m-0">
-      <body className='relative -z-10 bg-gray-900 min-h-screen w-screen p-0 m-0'>
+      <body className='relative -z-10 bg-gray-900 min-h-screen w-screen p-0 m-0 font-sans'>
         <div className="flex-col relative">
           <Nav />
           <main className="relative flex min-h-screen w-screen p-0 flex-col m-0 items-center justify-between align-middle bg-gray-900" >
